@@ -7,7 +7,7 @@
 mvn clean compile assembly:single
 
 ### 运行producer
-java -cp kafka-demo-{version}.jar cn.alfredcheung.demo.kafka.Producer
+java -cp kafka-demo-{version}-jar-with-dependencies.jar cn.alfredcheung.demo.kafka.Producer
 
 ### 运行consumer
-java -cp kafka-demo-{version}.jar cn.alfredcheung.demo.kafka.Consumer
+java -cp kafka-demo-{version}-jar-with-dependencies.jar cn.alfredcheung.demo.kafka.Consumer
